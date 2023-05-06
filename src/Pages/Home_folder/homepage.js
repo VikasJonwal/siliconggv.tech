@@ -25,7 +25,7 @@ const Homepage = () => {
             </div>
             <div className="col-lg-5 col-md-6 col-sm-6" style={{ height: "680px" }} >
 
-              {/* <Homeanimation/> */}
+              
 
             </div>
           </div>
@@ -41,7 +41,7 @@ const Homepage = () => {
       <Homeactivity/>
 
 
-      <section id="handbook" className="container" >
+      {/* <section id="handbook" className="container" >
 
         <div className="container">
           <div className="row" style={{ marginBottom: "50px", marginLeft:"10vw"}}>
@@ -49,12 +49,12 @@ const Homepage = () => {
               <Handbook />
             </div>
             <div className="col" >
-              {/* <Handbook /> */}
+              
             </div>
           </div>
         </div>
 
-      </section>
+      </section> */}
 
 
     </div>

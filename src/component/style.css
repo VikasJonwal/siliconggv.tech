@@ -317,8 +317,16 @@ ul.social-network li {
 
 .home-feature {
   background-image: linear-gradient(to bottom right, rgb(255, 224, 219), rgb(255, 255, 255));
-  height: 90vh;
+  padding: 50px;
 
+}
+#features .container .row .grid-content .card1 h3{
+  font-size: 20px;
+  margin-top: -5PX;
+}
+#features .container .row .grid-content .card1 P{
+  font-size: 15px;
+  margin-top: -10PX;
 }
 
 .features-bg {
@@ -327,6 +335,7 @@ ul.social-network li {
   background-size: cover;
   background-position: top;
   background: cover;
+  height: 80vh;
 }
 
 
@@ -477,7 +486,7 @@ ul.social-network li {
 
 }
 
-.vision-bg {
+/* .vision-bg {
   background: url("/public/static_img/vision-bg3.jpg");
   background-size: cover;
   background-position: top;
@@ -485,7 +494,7 @@ ul.social-network li {
   opacity: 0.9;
   height: 580px;
 
-}
+} */
 
 .valuebox-bg {
   background-image: linear-gradient(to bottom right, rgb(253, 253, 253), rgb(229, 211, 211));

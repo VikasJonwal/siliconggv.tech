@@ -9,21 +9,22 @@ const About = () => {
 
         <div className='container'>
           <div className='row' style={{ marginTop: "30px", }}>
-            <h2 className='subtitle' style={{ textAlign: "center" }}><b>ABOUT US</b></h2>
-            <div className='col-7 justify-text' id='aboutres'>
+            <h2 className='subtitle' style={{ textAlign: "center", margin: "25px" }}><b>ABOUT US</b></h2>
+            <div className='justify-text' id='aboutres'>
               <p>SILICON ( Society for Integrated Learning of Integrated circuit , Communication and Networking
                 system ) is a technical club presented by the Department of Electronics and Communication
                 Engineering. This club is open for all the students of any undergraduate or graduate program
                 who are interested in the core Electronics and Communication. It is a student-led initiative to
                 provide a platform to encourage the innovative and inquisitive young brains for problem solving
                 at local as well as global level.<br></br>
-                The faculty coordinator of this club is Mrs. Praveena Rajput ( Assistant Professor).<br></br>
-                Mr. Ankit Kumar is the founder and head of SILICON Club.<br></br>
-                We have Mr. Rishabh Upadhyay, Mr. Amrit Raj and Mr. Amit Mishra as our student mentors.</p>
+                <br></br>
+                 - The faculty coordinator of this club is Mrs. Praveena Rajput ( Assistant Professor).<br></br>
+                 - Mr. Ankit Kumar is the founder and head of SILICON Club.<br></br>
+                 - We have Mr. Rishabh Upadhyay, Mr. Amrit Raj and Mr. Amit Mishra as our student mentors.</p>
 
             </div>
              <div className='col-5 about-bg'>
-              <img src="/static_img/Si_logo.png" style={{ height: "65vh", width: "37vw" }} />
+              <img src="/static_img/Si_logo.png" style={{ height: "65vh", width: "37vw", display: "none" }} />
                {/* <div>
                 <h2><b>Mission of SILICON</b></h2>
               
@@ -45,14 +46,14 @@ const About = () => {
           </div>
         </div>
 
-        <div className='container '>
+        <div className='container'>
 
           <div className='row'>
-            <div className='col-5 vision-bg' style={{ marginTop: "50px" }}> </div>
+    
 
-            <div className='col-7' >
-              <h2 className='subtitle' style={{ textAlign: "center", marginTop: "40px" }}><b>VISION</b></h2>
-              <p className='justify-text' id='aboutres1'>
+            <div>
+              <h2 className='subtitle' style={{ textAlign: "center", marginTop: "80px", marginBottom: "60px", margin: "30px"}}><b>VISION</b></h2>
+              <p className='justify-text' id='aboutres'>
                 Our vision is to identify and promote university students interested in
                 studying Electronics and Communication technologies and they want
                 make their carriers in core technologies. This platform is created to
@@ -75,13 +76,13 @@ const About = () => {
       </div>
 
 
-      <div className='valuebox-bg'>
+      <div className='valuebox-bg'style={{marginTop: "80px"}}>
 
         <div className="section position-relative---z-index-1 wf-section container-fluid" id='aboutvaluesres' >
           <div className="container" >
             <div className="text-center mg-bottom-48px">
               <div className="inner-container _510px center">
-                <div className="subtitle mg-bottom-24px" style={{ fontSize: '60px' }}><b>Our values</b></div>
+                <div className="subtitle mg-bottom-24px" style={{ fontSize: '60px', marginTop: "20px" }}><b>Our values</b></div>
                 <h2 className="display-3 mg-bottom-0">
                   The values that drive everything we do
                 </h2>
@@ -245,7 +246,7 @@ const About = () => {
 
 
       <div className='container'>
-        <h2 className='subtitle' style={{ textAlign: "center", fontFamily: "", margin: "20px", }}>Organisation Structure</h2>
+        <h2 className='subtitle' style={{ textAlign: "center", fontFamily: "", margin: "20px",marginTop: "60px",marginBottom: "60px" }}>Organisation Structure</h2>
         <div className='row'>
         <img src='./static_img/team-chart.png' />
 
@@ -253,7 +254,7 @@ const About = () => {
       </div>
 
 
-      <div className="container">
+      <div className="container" style={{marginTop: "60px", marginBottom: "100px"}}>
         <div className='row' >
           <div className='col-7' id='targetres'>
 

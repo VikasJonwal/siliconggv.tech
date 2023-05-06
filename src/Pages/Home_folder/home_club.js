@@ -11,8 +11,8 @@ function Homeclub() {
 
     return (
 
-        <div className="container" style={{ marginTop: "40px", marginBottom: "20px" }} >
-            <h2 className="subtitle" style={{textAlign:"center"}}>CLUBS</h2>
+        <div className="container" style={{ marginTop: "60px", marginBottom: "60px" }} >
+            <h2 className="subtitle" style={{textAlign:"center", marginBottom: "60px"}}>CLUBS</h2>
 
             <div className="card">
                 <div className="row" style={{ paddingTop: "10px", marginLeft: "3px" }}>
@@ -49,12 +49,12 @@ function Homeclub() {
                             <div className="row" style={{ marginTop: "50px",padding:"25px" }}>
                                 <div className="col-7" id="club-img1">
                                    
-                                    <div className="imgcard row"><img src="/static_img/esd-img5.webp" style={{ width: "50vw", height: "60vh", borderEndStartRadius: "30px 20px", borderStartEndRadius: "30px 20px", borderStartStartRadius: "30px 20px", borderEndEndRadius: "30px 20px" }} /></div>
+                                    <div className="imgcard row"><img src="/static_img/esd-image5.jpg" style={{ width: "80vw", height: "50vh",marginLeft: "120px", borderEndStartRadius: "30px 20px", borderStartEndRadius: "30px 20px", borderStartStartRadius: "30px 20px", borderEndEndRadius: "30px 20px" }} /></div>
                                 </div>
-                                <div className="col-5" id="club-img0">
+                                {/* <div className="col-5" id="club-img0">
                                     <div className="imgcard row"><img src="/static_img/esd-img6.jpg" style={{ width: "20vw", height: "26vh", borderRadius: "8%" }} /></div>
                                     <div className="imgcard row" ><img src="/static_img/esd-img2.jpg" style={{ width: "20vw", height: "26vh", marginTop: "5vh", borderRadius: "8%" }} /></div>
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
@@ -68,7 +68,7 @@ function Homeclub() {
                             <p className="club-name" style={{ fontSize: "38px", marginTop: "0px", fontWeight: "bold", color: "deepskyblue" }}> Internet of Things Club</p>
                             <p className="justify-text" style={{ fontSize: "20px", fontWeight: "500" }}>
                                 IoT club deals with the iot devices and embedded systems.
-                                IoT is a network of physical objects, vehicles,
+                                IoT is a network of physical objects, vehicles, 
                                 buildings, and other items that have sensors, actuators,
                                 and software built in to collect and exchange data.<br></br>
                                 Where an embedded system is a combination of computer
@@ -81,7 +81,7 @@ function Homeclub() {
 
                         <div className="col-7" id="club-img2">
                             <div className="  row">
-                                <div className="imgcard col"><img src="/static_img/iot-img72.png" style={{ width: "40vw", height: "55vh", marginTop: "10vh",marginLeft:"4vw" }} /></div>
+                                <div className="imgcard col"><img src="/static_img/iot-img72.jpg" style={{ width: "40vw", height: "75vh", marginTop: "3vh",marginLeft:"4vw" }} /></div>
                                 
                             </div>
                             
@@ -110,7 +110,7 @@ function Homeclub() {
 
                         <div className="col-7" id="club-img3">
                             <div className="row">
-                                <div className="imgcard col"><img src="/static_img/cns-img52.png" style={{ width: "45vw", height: "60vh", marginTop: "8vh", marginLeft: "2vw" }} /></div>
+                                <div className="imgcard col"><img src="/static_img/comm.jpg" style={{ width: "450px", height: "450px", marginTop: "5vh", marginLeft: "8vw" }} /></div>
                                 
                             </div>
                             

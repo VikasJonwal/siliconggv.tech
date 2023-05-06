@@ -4,9 +4,9 @@ import React from 'react'
 const Homeactivity = () => {
     return (
         <>
-            <section id="activity" className="activity-bg" style={{ marginTop: "20px", marginBottom: "0px" }}>
+            <section id="activity" className="activity-bg" style={{ marginTop: "0px", marginBottom: "0px" }}>
                 <div className="container " id='activity_padding'>
-                    <div className="subtitle" style={{ textAlign: "center" }}>Activities We Do </div>
+                    <div className="subtitle" style={{ textAlign: "center",marginBottom: "60px" }}>Activities We Do </div>
                     <div className="row clubactivities" id='clubactivities' style={{ paddingTop: "25px", paddingBottom: "25px" }} >
                         <div className="col-4">
                             <div className="container-fluid" style={{ padding: "6px" }}>
@@ -25,7 +25,7 @@ const Homeactivity = () => {
                             </div>
                             <div className="container-fluid" style={{ padding: "6px" }}>
                                 <div className="row imgcard">
-                                    <div className="col"><img className='imgf' src="/static_img/Silicon_logo_2.0.png"  /></div>
+                                    <div className="col"><img className='imgf' src="/static_img/siliconweek.png"  /></div>
                                     <div className="col">
                                         <h4>SILICON Week</h4><p> A tech week with different competitons, in which all schools participate to winning the coveted SILICON Badges and Prizes .</p></div>
                                 </div>
